@@ -29,7 +29,8 @@ local options = {
 	scrolloff = 8,
 	-- wrap = true,
 	-- sidescrolloff = 8,
-	guifont = "monospace:h17"
+	guifont = "monospace:h17",
+	termguicolors = true
 }
 
 vim.opt.shortmess:append "c"
